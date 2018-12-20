@@ -1,0 +1,7 @@
+pimcore:
+  targeting:
+    conditions:
+      abcondition: ABTargetingBundle\Targeting\Condition\ABCondition
+
+    action_handlers:
+      abactionhandler: ABTargetingBundle\Targeting\ActionHandler\ABActionHandler

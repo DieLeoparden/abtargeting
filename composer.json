@@ -1,0 +1,30 @@
+{
+    "name": "leoparden/abtargeting",
+    "description": "Rolling target groups",
+    "keywords": ["pimcore", "targeting"],
+    "type": "pimcore-bundle",
+    "require": {
+        "php": ">=7.1",
+        "pimcore/pimcore": ">=5.5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leoparden e.K.",
+            "email": "technik@die-leoparden.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ABTargetingBundle\\": "src/ABTargetingBundle"
+        }
+    },
+    "extra": {
+        "pimcore": {
+            "bundles": [
+                "ABTargetingBundle\\ABTargetingBundle"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
